@@ -17,8 +17,6 @@ import java.util.Scanner;
  */
 public class SumOfNumbersInGivenList {
 	
-	static boolean result;
-	
 	public static void main(String[] args) {
 		
 		printResult();
@@ -104,24 +102,23 @@ public class SumOfNumbersInGivenList {
 		boolean result = false;
 		int count = arr.length-1;  
 		int ai = 0; 
-		while(count>0)   
+
+		for(;count>0;count--,ai++)
 		{
-			//System.out.println("Inside while loop : "+count);
 			int prima = arr[ai];
-			//System.out.println("Prima : "+prima);
+			System.out.println("inside forloop1 : "+count);
 			for(int i =ai+1;i<=arr.length-1;i++){
-				//System.out.println("Inside for loop : "+i);
-				if(prima+arr[i]==k)
-				{
-					result = true;
-					break;
+			System.out.println("Inside for loop2 : "+i);
+			if(prima+arr[i]==k)
+			{
+				result = true;
+				break;
 				}
-			}
-			ai++;       
-		    count--;	
-	   }
+			}   	
+		}
 	
 		return result;
-	}
 	
+	
+	}
 }

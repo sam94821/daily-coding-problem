@@ -25,9 +25,7 @@ public class SumOfNumbersInGivenList {
 		
 	}
 	/**
-	 * A method which processes the user input and checks whether 
-	 * there exist two numbers in the given list of numbers 
-	 * with the sum equal to k(where k is a user entered number). 
+	 * A method which prints the desired result and returns a boolean value. 
 	 * 
 	 */	
 	public static void printResult(){	

@@ -19,14 +19,14 @@ public class SumOfNumbersInGivenList {
 	
 	public static void main(String[] args) {
 		
-		printResult();
+		acceptUserInputAndProcessResult();
 		
 	}
 	/**
 	 * A method which prints the desired result and returns a boolean value. 
 	 * 
 	 */	
-	public static void printResult(){	
+	public static void acceptUserInputAndProcessResult(){	
 		
 	    int[] array =  acceptArray();
 	    int k =  acceptNumber();

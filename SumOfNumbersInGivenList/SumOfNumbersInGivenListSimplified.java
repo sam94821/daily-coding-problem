@@ -1,4 +1,3 @@
-import java.util.ArrayList;
 import java.util.Scanner;
 
 /**
@@ -39,6 +38,7 @@ public class SumOfNumbersInGivenListSimplified {
 		
 		System.out.println("Enter the number of your choice : ");
 		k = scan.nextInt();
+		
 		
 		boolean result = processResult(array, k);
 		System.out.println("Result is : " +result);

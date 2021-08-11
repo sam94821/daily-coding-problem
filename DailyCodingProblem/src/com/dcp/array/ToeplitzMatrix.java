@@ -74,8 +74,7 @@ public class ToeplitzMatrix {
 	 * 
 	 * A method to process the result and print the user-accepted matrix.
 	 * Pre-condition : @param array
-	 * Post-condition : Calls a method to process the result.
-	 * 							   Also, prints  the user-entered array and the result.
+	 * Post-condition : Calls a method to process the result.Also, prints  the user-entered array and the result.
 	 */
 	private static void processAndPrintTopelitzResult(int[][] array) {
 	    

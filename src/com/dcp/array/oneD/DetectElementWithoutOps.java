@@ -1,5 +1,6 @@
 package com.dcp.array.oneD;
 /**
+ * -------------------------------------------------------------------------------------------
  *  File : DetectElementWithoutOps.java
  *  -------------------------------------------------------------------------------------------
  *  Problem Statement : Given a sorted list of integers of length N, determine if an element x is

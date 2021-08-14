@@ -14,7 +14,8 @@ package com.dcp.array.oneD;
  */
 
 public class DetectElementWithoutOps {
-  
+
+	
 	private static int element;
 	private static int[] sortedArray;
 	private static boolean elementIsPresent;

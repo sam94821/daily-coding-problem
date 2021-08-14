@@ -13,6 +13,7 @@ package com.dcp.array.oneD;
  *  --------------------------------------------------------------------------------
  */
 
+
 public class DetectElementWithoutOps {
   
 	private static int element;

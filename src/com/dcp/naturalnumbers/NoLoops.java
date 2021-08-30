@@ -18,7 +18,7 @@ public class NoLoops {
 	 * Initializing the static variable to value '1', as being a natural number, the number 
 	 * of digits in the input will be at least 1. 
 	 */
-	private static int count=1; 
+	//private static int count=1; 
 	
 	/**
 	 * A  direct, tail recursive method to count the number of digits in the input provided.
@@ -28,20 +28,32 @@ public class NoLoops {
 	 */
 	protected  static int countNumberOfDigits(int naturalNumber) {
 			
-		int quotient,remainder;
+		int count;
 		
-		remainder = naturalNumber%10;
-		quotient = naturalNumber/10;
-		
-		if(naturalNumber<10) 
+		if(naturalNumber>=10 && naturalNumber>0)
 		{
-			count =count;
+			count = countNumberOfDigits(naturalNumber/10);
+			count++;
+			return count;
+		}else if(naturalNumber<10 && naturalNumber>0)
+		{	
+			return count=1;
+		}
+		else 
+		{
+			return count=0;
+		}
+		/* ----------------old code------------
+		if(naturalNumber<10 && naturalNumber>0) 
+		{
+			count = 1;
+			return count;
 			
 		}else
 		{
-			count++; 
- 			countNumberOfDigits(naturalNumber/10); 		
-		}
-		return count; 
+
+			countNumberOfDigits(naturalNumber/10);
+			++count;
+		}*/ 
 	}
 }

@@ -29,6 +29,7 @@ public class NoLoops {
 	protected  static int countNumberOfDigits(int naturalNumber) {
 			
 		int quotient,remainder;
+		
 		remainder = naturalNumber%10;
 		quotient = naturalNumber/10;
 		
@@ -41,6 +42,6 @@ public class NoLoops {
 			count++; 
  			countNumberOfDigits(naturalNumber/10); 		
 		}
-		return count;
+		return count; 
 	}
 }

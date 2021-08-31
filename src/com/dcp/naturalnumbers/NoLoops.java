@@ -30,18 +30,18 @@ public class NoLoops {
 			
 		int count;
 		
-		if(naturalNumber>=10 && naturalNumber>0)
+		if(naturalNumber>=10)
 		{
 			count = countNumberOfDigits(naturalNumber/10);
 			count++;
 			return count;
 		}else if(naturalNumber<10 && naturalNumber>0)
 		{	
-			return count=1;
+			return 1;
 		}
 		else 
 		{
-			return count=0;
+			return 0;
 		}
 		/* ----------------old code------------
 		if(naturalNumber<10 && naturalNumber>0) 
